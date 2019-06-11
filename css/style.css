@@ -3,6 +3,8 @@ body{
   color: #3b9d99;
 }
 
-
+#background {
+ overflow: hidden; 
+}
 
 
