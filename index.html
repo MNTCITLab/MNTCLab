@@ -5,13 +5,17 @@
   <meta charset="UTF-8">
   <title>MNTCLab</title>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 
-<body>
-  <iframe width="1920" height="1080" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0" id="background">
-  <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
-  <script  src="./script.js"></script>
+<body style="overflow: hidden;">
+<object scrolling="no" width="1920" height="1080" data="https://threatmap.fortiguard.com/" style="filter: blur(0px);"></object>
+<div style="width: 100%; height: 54px; position: absolute !important; left: 0px; top: 0px;" id="header"></div>
+<img src="/media/mntc.png" style="height: 45px; position: absolute !important; left: 5px; top: 5px;"></img>
+<p id="headertext">Informational Technology: Networking</p>
+<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+<script src="/js/index.js"></script>
 </body>
 
 </html>
