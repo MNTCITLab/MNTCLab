@@ -8,19 +8,44 @@ body {
 }
 
 #background {
- overflow: hidden; 
+  overflow: hidden; 
 }
 
 #headertext {
   color: #ffffff;
   font-family: 'Maven Pro', sans-serif;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 40px;
   height: 45px;
   position: absolute !important;
   text-align: center;
   width: 100%;
-  top: -8px;
-  filter: blur(0px);
+  top: -2px;
+  filter: blur(0.25px);
   /*If you're reading this, I'm so sorry about the non-standard coding. Chase Lindquist told me I could make jank code, so I did. - Ryan Lahlou*/
+}
+
+#clock {
+  color: #ffffff;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  height: 45px;
+  position: absolute !important;
+  text-align: right;
+  right: 10px;
+  width: 100%;
+  top: -2px;
+  filter: blur(0.25px);
+}
+
+#scrollingText {
+  color: #ffffff;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 30px;
+  position: absolute !important;
+  left: 10px;
+  top: 54px;
+  height:1026px;
+  width: 40%
 }
